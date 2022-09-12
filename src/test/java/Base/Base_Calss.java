@@ -19,6 +19,7 @@ public void initilizeBrowser() {
 	
 	//global wait
 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(25));
+	system.out.println("hii");
 	
 }
 }
